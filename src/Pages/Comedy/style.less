@@ -1,0 +1,93 @@
+canvas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #0e1729;
+    
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    .sidebar{
+        z-index: 2;
+    }
+    .movie_Card{
+        margin-left: 0;
+        position: relative;
+        bottom: 750px;
+        left: 300px;
+        
+        z-index: 0;
+    }
+    .multichoice{
+        .text_drop{
+            background-color: white;
+        }
+    }
+    .pagination{
+        display: flex;
+        justify-content: center;
+    }
+    .media_container{
+        width: 210px;
+        height: 100%;
+    
+    .img_card{
+        width: 100%;
+        height: 100%;
+    }
+    }
+    .stand{
+        height: 80px;
+    }
+    .root{
+        display: flex;
+        .title{
+            display: inline;
+            :hover{
+                color: #ff5555;
+            }
+        }
+        .content{
+            width: 2500px;
+            flex: 0 1 auto;
+            font-size: 0px;
+            .overview{
+                text-overflow: ellipsis;
+            }
+        }
+        .content-rating{
+            width:160px;
+            .rating-word{
+                display: flex;
+                justify-content: center;
+                font-size:x-large;
+                font-style: italic;
+                color: #ff5555;
+            }
+        }
+        .genre{
+            position: relative;
+            top: 10px;
+            display: block;
+            overflow-wrap: break-word;
+        }
+        .button_div{
+           position: relative;
+           right: 0px;
+           top: 40px;
+           .button_play{
+               width: 120px;
+           }
+           .button_add{
+            width: 120px;
+            position: relative;
+            bottom: -10px;
+        }
+        }
+    }
+}

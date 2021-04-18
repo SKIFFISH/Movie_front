@@ -1,11 +1,18 @@
-
+import React from 'react'
+import FetchMovie from './files'
 
 function App() {
+
+  const ClickHandle = ()=>{
+    FetchMovie()
+  }
+
+
   return (
     <div className="App">
-      App
+      <button onClick = {ClickHandle}>DownLoad</button>
     </div>
   );
 }
 
-export default App;
+export default React.memo(App)
